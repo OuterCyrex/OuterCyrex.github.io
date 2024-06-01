@@ -13,7 +13,8 @@ I also like Programming and Galgame very much, so this blog is the mixture of th
 - About Huxpro · ([Huxpro's github](https://github.com/Huxpro/huxpro.github.io))
 
 #### Other
-- About Virtual Intelligence(xdzn)[1]
-- About My github[2]
+- [About Virtual Intelligence(xdzn)][1]
+- [About My github][2]
+
 [1]: http://xdzn.club
 [2]: https://github.com/OuterCyrex
