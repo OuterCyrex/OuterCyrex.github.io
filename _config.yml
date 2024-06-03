@@ -62,7 +62,7 @@ kramdown:
 disqus_username: hux
 
 # Netease settings
-netease_comment: true
+netease_comment: false
 
 # Analytics settings
 # Baidu Analytics
@@ -91,7 +91,6 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "虚动智能xdzn", href: "http://xdzn.club" },
-    { title:"            ", href: "" },
-    { title: "Onism的Blog", href: "https://wllomve.top/" },
+    { title: "虚动智能xdzn           ", href: "http://xdzn.club" },
+    { title: "Onism的Blog            ", href: "https://wllomve.top/" },
   ]
