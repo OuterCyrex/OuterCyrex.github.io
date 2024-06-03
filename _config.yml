@@ -91,6 +91,6 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "虚动智能xdzn           ", href: "http://xdzn.club" },
-    { title: "Onism的Blog            ", href: "https://wllomve.top/" },
+    { title: "虚动智能xdzn <br> ", href: "http://xdzn.club" },
+    { title: "Onism的Blog <br> ", href: "https://wllomve.top/" },
   ]
