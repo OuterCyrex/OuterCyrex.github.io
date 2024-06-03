@@ -5,7 +5,7 @@ header-img: pic/9nine.png.jpg
 email: a15839962056@outlook.com
 description: "这里是 OuterCyrex 的个人博客 | 在搭建自己的博客之前先用这个框架了"
 keyword: "OuterCyrex, 后端, Golang, Galgame"
-url: "https://huangxuan.me" # your host, for absolute URL
+url: "https://outercyrex.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -92,4 +92,5 @@ page-mathjax: false
 friends:
   [
     { title: "虚动智能xdzn", href: "http://xdzn.club" },
+    { title:"Onism的Blog", href:"https://wllomve.top/" },
   ]
