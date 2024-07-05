@@ -1,7 +1,7 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "Outer Blog",
+  "short_name": "Outer Blog",
+  "description": "OuterCyrex's Blog that records the lessons",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
