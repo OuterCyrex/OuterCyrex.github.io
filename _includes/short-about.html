@@ -12,7 +12,9 @@
     {% include sns-links.html %}
   </div>
   <hr>
-<div id="clock" style="font-familt:Arial,sans-serif;fontsize:24px;color:#333;width:100px;height:100px;background-color:deepskyblue"></div>
+<div style="font-weight:700;font-size:15px;">现在是北京时间：</div>
+<br>
+<div id="clock" style="font-familt:Arial,sans-serif;font-size:24px;color:#333;width:auto;height:auto;background-image:linear-gradient(0deg,#a18cd1,#fbc2ed 100%);background-clip:text; -webkit-background-clip: text;-webkit-text-fill-color: transparent;text-align:center;border:5px solid grey;border-radius:10px;-webkit-user-select: none;"></div>
 <script>
     function updateClock() {
         const now = new Date();
