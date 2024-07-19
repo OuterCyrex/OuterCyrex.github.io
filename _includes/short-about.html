@@ -14,11 +14,7 @@
   <hr>
 <div style="font-weight:700;font-size:15px;">现在是北京时间：</div>
 <br>
-<div id="clock" style="font-familt:Arial,sans-serif;font-size:24px;color:#333;width:auto;height:auto;background-image:linear-gradient(0deg,#a18cd1,#fbc2ed 100%);background-clip:text; -webkit-background-clip: text;-webkit-text-fill-color: transparent;text-align:center;border:5px solid grey;border-radius:10px;-webkit-user-select: none;">
-  <div id="hour" border-right:10px solid grey></div>
-  <div id="minute" border-right:10px solid grey></div>
-  <div id="second"></div>
-</div>
+<div id="clock" style="font-familt:Arial,sans-serif;font-size:24px;color:#333;width:auto;height:auto;background-image:linear-gradient(0deg,#a18cd1,#fbc2ed 100%);background-clip:text; -webkit-background-clip: text;-webkit-text-fill-color: transparent;text-align:center;border:5px solid grey;border-radius:10px;-webkit-user-select: none;"></div>
 <script>
     function updateClock() {
         const now = new Date();
@@ -28,9 +24,8 @@
         hours = hours.toString().padStart(2, '0');
         minutes = minutes.toString().padStart(2, '0');
         seconds = seconds.toString().padStart(2, '0');
-        document.getElementById('hour').textContent = hours;
-        document.getElementById('minute').textContent = minutes;
-      document.getElementById('second').textContent = seconds;
+      const timeString = `${hours}:${minutes}:${seconds}`;
+        document.getElementById('clock').textContent = timeString;
     }
     updateClock();
     setInterval(updateClock, 1000);
