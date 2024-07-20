@@ -56,13 +56,13 @@ multilingual: true
             if (audio.paused) {  
                 audio.play()  
                     .then(() => {  
-                        playBtn.textContent = '暂停音乐';  
+                        playBtn.textContent = '||';  
                         playBtn.classList.add('is-playing');
                     })  
                     .catch(error => console.error('音乐播放失败:', error));  
             } else {  
                 audio.pause();  
-                playBtn.textContent = '播放音乐';  
+                playBtn.textContent = '▶';  
                 playBtn.classList.remove('is-playing');
             }  
         });  
