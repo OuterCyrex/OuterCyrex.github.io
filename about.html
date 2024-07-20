@@ -27,6 +27,28 @@ multilingual: true
     <label for="volume">音量:</label>
     <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5">
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var audio = new Audio('./music/PoemOfSakura.mp3');
+        var playBtn = document.getElementById('playBtn');
+        var volumeSlider = document.getElementById('volume');
+        audio.loop=true;
+        audio.volume = volumeSlider.value;
+        playBtn.addEventListener('click', function() {
+            if (audio.paused) {
+                audio.play()
+                    .then(() => playBtn.textContent = '暂停音乐')
+                    .catch(error => console.error('音乐播放失败:', error));
+            } else {
+                audio.pause();
+                playBtn.textContent = '播放音乐';
+            }
+        });
+        volumeSlider.addEventListener('input', function() {
+            audio.volume = this.value;
+        });
+    });
+</script>
 
 {% if site.disqus_username %}
 <!-- disqus 评论框 start -->
