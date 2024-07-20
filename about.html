@@ -22,10 +22,13 @@ multilingual: true
 </div>
 
 
-<div style="height:105px;width:50%;border-radius:10px;border:3px solid grey;display:grid;grid-template-columns:repeat(3,1fr);margin:0 auto;">
-    <button id="playBtn" style="border-radius:50%;margin:10px">暂停音乐</button>
-    <label for="volume">音量:</label>
-    <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5">
+<div style="height:145px;width:70%;border-radius:10px;border:3px solid grey;display:grid;grid-template-columns:1fr 2fr;margin:0 auto;">
+    <button style="border-radius:50%;margin:10px" id="playBtn">播放音乐</button>
+    <div><div style="font-size:15px;margin-top:25px;font-family:'Yu Gothic'">舞い上がる因果交流のひかり</div>
+        <div style="font-size:12px;font-family:'Yu Gothic'">松本文纪</div>
+        <label for="volume" style="display:inline">音量:</label>
+        <input style="width:70%" value="0.5" step="0.01" max="1" min="0" id="volume" type="range">
+    </div>
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
