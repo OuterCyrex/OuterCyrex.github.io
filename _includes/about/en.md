@@ -15,6 +15,8 @@ I also like Programming and Galgame very much, so this blog is the mixture of th
 #### Other
 - [About Virtual Intelligence(xdzn)][1]
 - [About My github][2]
+- the origin of some documents: [fengfeng zhidao][3]
 
 [1]: http://xdzn.club
 [2]: https://github.com/OuterCyrex
+[3]: https://docs.fengfengzhidao.com/#/?id=fengfeng-docs-%e6%9e%ab%e6%9e%ab%e7%9f%a5%e9%81%93%e5%ae%98%e6%96%b9%e6%96%87%e6%a1%a3
