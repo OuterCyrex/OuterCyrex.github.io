@@ -74,7 +74,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Welcome <br> 暂时还没想好写什么"
+sidebar-about-description: "Welcome <br> ABOUT页面有音乐可以听哦！"
 sidebar-avatar: /pic/sora.png.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
