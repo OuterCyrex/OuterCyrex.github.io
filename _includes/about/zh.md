@@ -21,12 +21,8 @@ Hey，我是OuterCyrex（QQ:3286882719），一个弱鸡后端开发者，暂时
 - [我的github][2]
 - 部分文档来源：[枫枫知道][3]
 
-<!--
-- [我的bilibili][4] · 2024
--->
 
 
 [1]: http://xdzn.club
 [2]: http://github.com/OuterCyrex
 [3]: https://docs.fengfengzhidao.com/#/?id=fengfeng-docs-%e6%9e%ab%e6%9e%ab%e7%9f%a5%e9%81%93%e5%ae%98%e6%96%b9%e6%96%87%e6%a1%a3
-[4]: https://space.bilibili.com/219624199?spm_id_from=333.1007.0.0
