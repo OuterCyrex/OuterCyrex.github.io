@@ -19,10 +19,11 @@ Hey，我是OuterCyrex（QQ:3286882719），一个弱鸡后端开发者，暂时
 
 - [关于虚动智能团队][1]
 - [我的github][2]
-- 部分文档来源：[枫枫知道][3]
+- 部分文档来源：[枫枫知道][3] [枫枫知道个人博客][4]
 
 
 
 [1]: http://xdzn.club
 [2]: http://github.com/OuterCyrex
 [3]: https://docs.fengfengzhidao.com/#/?id=fengfeng-docs-%e6%9e%ab%e6%9e%ab%e7%9f%a5%e9%81%93%e5%ae%98%e6%96%b9%e6%96%87%e6%a1%a3
+[4]: https://www.fengfengzhidao.com/special/2/52
