@@ -94,6 +94,14 @@ layout: default
             </div>
         </div>
     </div>
+	<div>
+		<button onclick="scrollback()">回滚测试</button>
+		<script>
+			const scrollback = function(){
+				window.scrollTo({top:0,behavior:"smooth"})
+			}
+		</script>
+	</div>
 </article>
 
 <!-- add support for mathjax by voleking-->
