@@ -97,23 +97,16 @@ layout: default
 	<div id="scrollBackButtonContainer" style="position:fixed;bottom:0px;right:100px;display:block;">  
     <button id="scrollToTopButton" onclick="scrollback()" style="height:200px;width:200px;background-image:url(https://august-soft.com/cms/wp-content/themes/august/img/common/pagetop_01.png);background-size:cover;background-color:transparent;border:none;"></button>  
     <script>  
-        // 滚动到页面顶部的函数  
         function scrollback() {  
             window.scrollTo({top: 0, behavior: "smooth"});  
         }  
-  
-        // 监听窗口大小变化  
         window.onresize = function() {  
             resizeButton();  
         };  
-  
-        // 初始化时调用一次  
         resizeButton();  
-  
-        // 根据窗口宽度显示或隐藏按钮  
         function resizeButton() {  
             var width = window.innerWidth;  
-            if (width < 600) {  
+            if (width < 1200) {  
                 document.getElementById("scrollBackButtonContainer").style.display = "none";  
             } else {  
                 document.getElementById("scrollBackButtonContainer").style.display = "block";  
