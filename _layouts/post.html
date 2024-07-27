@@ -94,14 +94,33 @@ layout: default
             </div>
         </div>
     </div>
-	<div style="position:fixed;bottom:0px;right:100px">
-		<button onclick="scrollback()" style="height:200px;width:200px;background-image:url(https://august-soft.com/cms/wp-content/themes/august/img/common/pagetop_01.png);background-size:cover;background-color:white;border:none"></button>
-		<script>
-			const scrollback = function(){
-				window.scrollTo({top:0,behavior:"smooth"})
-			}
-		</script>
-	</div>
+	<div id="scrollBackButtonContainer" style="position:fixed;bottom:0px;right:100px;display:block;">  
+    <button id="scrollToTopButton" onclick="scrollback()" style="height:200px;width:200px;background-image:url(https://august-soft.com/cms/wp-content/themes/august/img/common/pagetop_01.png);background-size:cover;background-color:white;border:none;"></button>  
+    <script>  
+        // 滚动到页面顶部的函数  
+        function scrollback() {  
+            window.scrollTo({top: 0, behavior: "smooth"});  
+        }  
+  
+        // 监听窗口大小变化  
+        window.onresize = function() {  
+            resizeButton();  
+        };  
+  
+        // 初始化时调用一次  
+        resizeButton();  
+  
+        // 根据窗口宽度显示或隐藏按钮  
+        function resizeButton() {  
+            var width = window.innerWidth;  
+            if (width < 600) {  
+                document.getElementById("scrollBackButtonContainer").style.display = "none";  
+            } else {  
+                document.getElementById("scrollBackButtonContainer").style.display = "block";  
+            }  
+        }  
+    </script>  
+</div>
 </article>
 
 <!-- add support for mathjax by voleking-->
