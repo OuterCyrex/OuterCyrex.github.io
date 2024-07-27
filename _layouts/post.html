@@ -94,7 +94,7 @@ layout: default
             </div>
         </div>
     </div>
-	<div id="scrollBackButtonContainer" style="position:fixed;bottom:0px;right:100px;display:block;">  
+	<div id="scrollBackButtonContainer" style="position:fixed;bottom:0px;right:50px;display:block;">  
     <button id="scrollToTopButton" onclick="scrollback()" style="height:200px;width:200px;background-image:url(https://august-soft.com/cms/wp-content/themes/august/img/common/pagetop_01.png);background-size:cover;background-color:transparent;border:none;"></button>  
     <script>  
         function scrollback() {  
@@ -106,7 +106,7 @@ layout: default
         resizeButton();  
         function resizeButton() {  
             var width = window.innerWidth;  
-            if (width < 1201) {  
+            if (width < 1200) {  
                 document.getElementById("scrollBackButtonContainer").style.display = "none";  
             } else {  
                 document.getElementById("scrollBackButtonContainer").style.display = "block";  
