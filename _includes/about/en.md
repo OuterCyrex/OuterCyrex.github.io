@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/25bdb2ff-ea9d-41cd-bd69-833c7a2aef5e)Hey, I am OuterCyrex (QQ:3286882719). I am a common backend developer and a newcomer,now studying Web backend development based on Golang.I expect to perfect my front and back end skills, and try my best to be a front and back end pro(maybe a joke).
+Hey, I am OuterCyrex (QQ:3286882719). I am a common backend developer and a newcomer,now studying Web backend development based on Golang.I expect to perfect my front and back end skills, and try my best to be a front and back end pro(maybe a joke).
 
 Nowadays a undergraduate of SWPU(Southwest Petroleum University), and majoring in software engineering.Besides a member of Group Virtual Intelligence.
 
