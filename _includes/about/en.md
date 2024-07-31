@@ -11,7 +11,7 @@ I also like Programming and Galgame very much, so this blog is the mixture of th
 - Why choose github?That's because github gives a way to build a website that everyone can visit.
 - About my repositories · ([OuterCyrex's github](https://github.com/OuterCyrex/OuterCyrex.github.io))
 - About Huxpro · ([Huxpro's github](https://github.com/Huxpro/huxpro.github.io))
-- My Sudoku Game ([https://outercyrex.github.io/sudoku/])
+- My Sudoku Game ([OuterCyrexのSudoku](https://outercyrex.github.io/sudoku/))
 
 #### Other
 - [About Virtual Intelligence(xdzn)][1]
