@@ -13,6 +13,7 @@ Hey，我是OuterCyrex（QQ:3286882719），一个弱鸡后端开发者，暂时
 - 为什么选择github？因为github提供的pages服务可以快速搭建一个所有人都能接入的网站。
 - 关于我的仓库 · ([OuterCyrex的github](https://github.com/OuterCyrex/OuterCyrex.github.io))
 - 关于本家 · ([Huxpro的github](https://github.com/Huxpro/huxpro.github.io))
+- 我的数独游戏 ([OuterCyrexのSudoku](https://outercyrex.github.io/sudoku/))
 
 
 ##### 关于其他
