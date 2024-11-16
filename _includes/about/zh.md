@@ -1,4 +1,4 @@
-Hey，我是OuterCyrex（QQ:3286882719），一个弱鸡后端开发者，暂时还在学习Go语言的Web后端开发。未来将完善前后端技术，争取称为前后端大神（史）。
+Hey，我是OuterCyrex（QQ:3286882719），一个弱鸡后端开发者，目前从事Go语言的Web后端开发。该Blog当前已弃用，最新 Outer Blog 见下方链接。
 
 现在在西南石油大学就读，2023级软件工程学生，隶属于虚动智能团队。
 
@@ -11,6 +11,7 @@ Hey，我是OuterCyrex（QQ:3286882719），一个弱鸡后端开发者，暂时
 - 博客是根据Hux大佬在github上的开源博客框架编写。
 - 如上所述，这个博客的大部分篇幅可能是记录前后端学习。
 - 为什么选择github？因为github提供的pages服务可以快速搭建一个所有人都能接入的网站。
+- 新版 Outer Blog · ([Outer Blog](http://outercyrex.top:8080))
 - 关于我的仓库 · ([OuterCyrex的github](https://github.com/OuterCyrex/OuterCyrex.github.io))
 - 关于本家 · ([Huxpro的github](https://github.com/Huxpro/huxpro.github.io))
 - 我的数独游戏 ([OuterCyrexのSudoku](https://outercyrex.github.io/sudoku/))
